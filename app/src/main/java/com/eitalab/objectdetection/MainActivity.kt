@@ -127,7 +127,7 @@ class MainActivity : ComponentActivity() {
     }
 
     private fun initCamera() {
-        modelFile = utils.getModelFileFromAssets("convnext_base_fp16.tflite", filesDir, assets)
+        modelFile = utils.getModelFileFromAssets("mobile_net_v3_small_300x300.tflite", filesDir, assets)
         tf = TensorflowController(modelFile)
         cameraProviderFuture = ProcessCameraProvider.getInstance(this)
         cameraProviderFuture.addListener({
