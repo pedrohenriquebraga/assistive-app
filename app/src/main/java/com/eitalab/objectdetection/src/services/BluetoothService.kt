@@ -145,7 +145,7 @@ class BluetoothService(private val context: Context) {
         if (isConnected || bluetoothGatt != null) return
         if (!hasPermission(Manifest.permission.BLUETOOTH_CONNECT)) return
 
-        val storage = StorageService(context as android.app.Activity)
+        val storage = StorageService(context)
         val savedMac = storage.getData("assistive_device_mac")
 
         val targetMac = if (newMacAddress.isNotEmpty()) {

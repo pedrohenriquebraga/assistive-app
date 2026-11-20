@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.ObjectDetection" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.ObjectDetection" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#FFCC00</item>
+        <item name="colorPrimaryVariant">#FFB700</item>
+        <item name="colorOnPrimary">#121620</item>
+        <item name="colorSecondary">#FFCC00</item>
+        <item name="colorOnSecondary">#121620</item>
+        <item name="android:statusBarColor">#121620</item>
+        <item name="android:navigationBarColor">#121620</item>
+        <item name="android:windowBackground">#0F1219</item>
+    </style>
+
+    <style name="Theme.ObjectDetection.NoActionBar" parent="Theme.ObjectDetection">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ObjectDetection.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="Theme.ObjectDetection.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
 </resources>

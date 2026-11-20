@@ -7,4 +7,16 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="tab_bar_background">#161922</color>
+    <color name="tab_active_yellow">#FFCC00</color>
+    <color name="tab_active_dark">#121620</color>
+    <color name="tab_inactive_white">#FFFFFFFF</color>
+    <color name="dark_bg">#0F1219</color>
+    <color name="dark_surface">#181C26</color>
+    <color name="dark_card">#202534</color>
+    <color name="dark_card_stroke">#2B3144</color>
+    <color name="text_secondary">#9CA3AF</color>
+    <color name="accent_blue">#0088FF</color>
+    <color name="accent_green">#10B981</color>
+    <color name="accent_red">#EF4444</color>
 </resources>

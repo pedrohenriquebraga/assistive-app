@@ -52,6 +52,7 @@ android {
     buildFeatures {
         compose = true
         mlModelBinding = true
+        viewBinding = true
     }
 
     fun Packaging.() {
@@ -62,6 +63,12 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.activity.ktx)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.compose.material3.adaptive.navigation.suite)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.material)
     implementation(libs.tensorflow.lite)
     implementation(libs.tensorflow.lite.task.vision)
     implementation(libs.tensorflow.lite.support)
